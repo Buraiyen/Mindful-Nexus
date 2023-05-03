@@ -1,3 +1,5 @@
+@import "../../variables";
+
 .timeline-item {
   max-width: 40%;
   color: white;
@@ -17,7 +19,7 @@
     width: 70px;
     border-radius: 12px;
     display: inline;
-    padding: 6px 8px;
+    padding: 6px 12px;
   }
 
   .timeline-item__category {
@@ -26,9 +28,16 @@
     font-size: 0.8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
-    padding: 6px 8px;
+    padding: 6px 12px;
     border-left: 4px solid rgba(255, 255, 255, 0.2);
     border-left-color: rgba(255, 255, 255, 0.2);
     border-radius: 12px;
+    text-transform: capitalize;
+
+    &.book {
+      color: $red;
+      background: $red-transparent;
+      border-left-color: $red;
+    }
   }
 }
