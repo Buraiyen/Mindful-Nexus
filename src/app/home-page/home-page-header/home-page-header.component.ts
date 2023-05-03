@@ -14,7 +14,5 @@ export class HomePageHeaderComponent {
   ];
 
   randomIndex = Math.floor(Math.random() & this.sayings.length);
-  retrieved = this.sayings[this.randomIndex];
-
-  selectedString = `${this.retrieved.regular} ${this.retrieved.bold}`;
+  saying = this.sayings[this.randomIndex];
 }
