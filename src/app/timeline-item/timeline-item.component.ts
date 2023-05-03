@@ -20,6 +20,6 @@ export class TimelineItemComponent {
       day: '2-digit',
       month: 'short',
     }),
-    category: 'Book',
+    category: 'book',
   };
 }
