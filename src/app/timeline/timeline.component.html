@@ -1,1 +1,5 @@
-<p>timeline works!</p>
+<ul>
+  <li *ngFor="let timelineItem of timelineItems">
+    <app-timeline-item [timelineItem]="timelineItem" />
+  </li>
+</ul>
