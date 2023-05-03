@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HomePageHeaderComponent } from './home-page/home-page-header/home-page-header.component';
+import { TimelineItemComponent } from './timeline-item/timeline-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomePageComponent,
-    HomePageHeaderComponent
+    HomePageHeaderComponent,
+    TimelineItemComponent
   ],
   imports: [
     BrowserModule,
