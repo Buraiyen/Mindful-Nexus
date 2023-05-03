@@ -45,5 +45,23 @@
       background: $yellow-transparent;
       border-left-color: $yellow;
     }
+
+    &.podcast {
+      color: $green;
+      background: $green-transparent;
+      border-left-color: $green;
+    }
+
+    &.course {
+      color: $blue;
+      background: $blue-transparent;
+      border-left-color: $blue;
+    }
+
+    &.tool {
+      color: $purple;
+      background: $purple-transparent;
+      border-left-color: $purple;
+    }
   }
 }
