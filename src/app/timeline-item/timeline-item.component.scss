@@ -16,7 +16,19 @@
     text-align: center;
     width: 70px;
     border-radius: 12px;
-    display: block;
-    padding: 5px 0;
+    display: inline;
+    padding: 6px 8px;
+  }
+
+  .timeline-item__category {
+    background: rgba(255, 255, 255, 8%);
+    display: inline;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 6px 8px;
+    border-left: 4px solid rgba(255, 255, 255, 0.2);
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
   }
 }
