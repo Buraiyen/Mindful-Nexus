@@ -1,7 +1,11 @@
-<article>
-  <h3>{{ timelineItem.title }}</h3>
-  <span>
-    {{ timelineItem.date }}
-  </span>
-  <span>{{ timelineItem.category }}</span>
+<article class="timeline-item">
+  <h3 class="timeline-item__title">{{ timelineItem.title }}</h3>
+  <div class="timeline-item__bottom-group">
+    <div class="timeline-item__date">
+      <a>
+        {{ timelineItem.date }}
+      </a>
+    </div>
+    <span>{{ timelineItem.category }}</span>
+  </div>
 </article>
