@@ -39,5 +39,11 @@
       background: $red-transparent;
       border-left-color: $red;
     }
+
+    &.article {
+      color: $yellow;
+      background: $yellow-transparent;
+      border-left-color: $yellow;
+    }
   }
 }
