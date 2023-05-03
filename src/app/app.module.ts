@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HomePageHeaderComponent } from './home-page/home-page-header/home-page-header.component';
-import { TimelineItemComponent } from './timeline-item/timeline-item.component';
+import { TimelineItemComponent } from './timeline/timeline-item/timeline-item.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -14,13 +15,11 @@ import { TimelineItemComponent } from './timeline-item/timeline-item.component';
     NavbarComponent,
     HomePageComponent,
     HomePageHeaderComponent,
-    TimelineItemComponent
+    TimelineItemComponent,
+    TimelineComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
