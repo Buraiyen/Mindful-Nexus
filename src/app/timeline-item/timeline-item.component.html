@@ -6,7 +6,12 @@
         {{ timelineItem.date }}
       </a>
     </div>
-    <div class="timeline-item__category">
+    <div
+      class="timeline-item__category"
+      [ngClass]="{
+        book: timelineItem.category === 'book'
+      }"
+    >
       <span>{{ timelineItem.category }}</span>
     </div>
   </div>
