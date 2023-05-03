@@ -9,7 +9,11 @@
     <div
       class="timeline-item__category"
       [ngClass]="{
-        book: timelineItem.category === 'book'
+        book: timelineItem.category === 'book',
+        article: timelineItem.category === 'article',
+        podcast: timelineItem.category === 'podcast',
+        course: timelineItem.category === 'course',
+        tool: timelineItem.category === 'tool',
       }"
     >
       <span>{{ timelineItem.category }}</span>
