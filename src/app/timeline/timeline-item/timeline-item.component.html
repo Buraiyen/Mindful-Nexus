@@ -3,20 +3,20 @@
   <div class="timeline-item__bottom-group">
     <div class="timeline-item__date">
       <a>
-        {{ timelineItem?.date }}
+        {{ timelineItem!.date | date }}
       </a>
     </div>
     <div
       class="timeline-item__category"
       [ngClass]="{
-        book: timelineItem?.category === 'book',
-        article: timelineItem?.category === 'article',
-        podcast: timelineItem?.category === 'podcast',
-        course: timelineItem?.category === 'course',
-        tool: timelineItem?.category === 'tool',
+        book: timelineItem!.category === 'book',
+        article: timelineItem!.category === 'article',
+        podcast: timelineItem!.category === 'podcast',
+        course: timelineItem!.category === 'course',
+        tool: timelineItem!.category === 'tool',
       }"
     >
-      <span>{{ timelineItem?.category }}</span>
+      <span>{{ timelineItem!.category }}</span>
     </div>
   </div>
 </article>
