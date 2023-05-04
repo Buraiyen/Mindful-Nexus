@@ -9,6 +9,7 @@ import { HomePageHeaderComponent } from './home-page/home-page-header/home-page-
 import { TimelineItemComponent } from './timeline/timeline-item/timeline-item.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { ContainerComponent } from './shared/container/container.component';
+import { DatePipe } from './timeline/timeline-item/date.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ContainerComponent } from './shared/container/container.component';
     TimelineItemComponent,
     TimelineComponent,
     ContainerComponent,
+    DatePipe,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
