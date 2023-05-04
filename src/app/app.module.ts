@@ -8,6 +8,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HomePageHeaderComponent } from './home-page/home-page-header/home-page-header.component';
 import { TimelineItemComponent } from './timeline/timeline-item/timeline-item.component';
 import { TimelineComponent } from './timeline/timeline.component';
+import { ContainerComponent } from './shared/container/container.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TimelineComponent } from './timeline/timeline.component';
     HomePageHeaderComponent,
     TimelineItemComponent,
     TimelineComponent,
+    ContainerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
