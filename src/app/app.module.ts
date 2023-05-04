@@ -10,6 +10,7 @@ import { TimelineItemComponent } from './timeline/timeline-item/timeline-item.co
 import { TimelineComponent } from './timeline/timeline.component';
 import { ContainerComponent } from './shared/container/container.component';
 import { DatePipe } from './timeline/timeline-item/date.pipe';
+import { DynamicPageComponent } from './dynamic-page/dynamic-page.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DatePipe } from './timeline/timeline-item/date.pipe';
     TimelineComponent,
     ContainerComponent,
     DatePipe,
+    DynamicPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
