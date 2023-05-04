@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-dynamic-page',
   templateUrl: './dynamic-page.component.html',
-  styleUrls: ['./dynamic-page.component.scss']
+  styleUrls: ['./dynamic-page.component.scss'],
 })
 export class DynamicPageComponent {
-
+  @Input() title?: string;
+  @Input() date?: Date;
+  @Input() category?: string;
+  @Input() content?: [];
 }

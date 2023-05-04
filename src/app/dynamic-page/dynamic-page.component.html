@@ -1,1 +1,6 @@
-<p>dynamic-page works!</p>
+<app-container>
+  <h1>{{ title }}</h1>
+  <h2>{{ category }}</h2>
+  <h3>{{ date }}</h3>
+  <p *ngFor="let paragraph of content">{{ paragraph }}</p>
+</app-container>
