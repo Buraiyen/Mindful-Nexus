@@ -2,6 +2,9 @@
   <div>
     <h2 class="info">{{ pageData.category }} | {{ pageData.date | date }}</h2>
   </div>
-  <h1>{{ pageData.title }}</h1>
-  <p *ngFor="let paragraph of pageData.content">{{ paragraph }}</p>
+  <h1 class="title">{{ pageData.title }}</h1>
+  <p class="paragraph" *ngFor="let paragraph of pageData.content">
+    {{ paragraph }}
+  </p>
+  <a href="" class="button">Link</a>
 </app-container>
