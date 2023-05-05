@@ -1,6 +1,7 @@
 export interface TimelineItem {
-  id: number;
+  id: string;
   title: string;
   date: Date;
   category: string;
+  content: string[];
 }
