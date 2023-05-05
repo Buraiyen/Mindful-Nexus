@@ -8,8 +8,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HomePageHeaderComponent } from './home-page/home-page-header/home-page-header.component';
 import { TimelineItemComponent } from './timeline/timeline-item/timeline-item.component';
 import { TimelineComponent } from './timeline/timeline.component';
-import { ContainerComponent } from './shared/container/container.component';
-import { DatePipe } from './timeline/timeline-item/date.pipe';
+import { ContainerComponent } from './shared/components/container/container.component';
+import { DatePipe } from './shared/pipes/date.pipe';
 import { DynamicPageComponent } from './dynamic-page/dynamic-page.component';
 
 @NgModule({
