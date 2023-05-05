@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./dynamic-page.component.scss'],
 })
 export class DynamicPageComponent {
+  @Input() id?: string;
   @Input() title?: string;
   @Input() date?: Date;
   @Input() category?: string;
