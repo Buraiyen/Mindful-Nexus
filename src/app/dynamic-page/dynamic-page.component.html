@@ -1,6 +1,6 @@
 <app-container>
-  <h1>{{ title }}</h1>
-  <h2>{{ category }}</h2>
-  <h3>{{ date }}</h3>
-  <p *ngFor="let paragraph of content">{{ paragraph }}</p>
+  <h1>{{ pageData.title }}</h1>
+  <h2>{{ pageData.category }}</h2>
+  <h3>{{ pageData.date }}</h3>
+  <p *ngFor="let paragraph of pageData.content">{{ paragraph }}</p>
 </app-container>
