@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PAGE_DATA } from './dynamic-page/page-data';
+import { PAGE_DATA } from './data/page-data';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DynamicPageComponent } from './dynamic-page/dynamic-page.component';
 

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { TimelineItem } from './timeline-item/timeline-item';
-import { PAGE_DATA } from '../dynamic-page/page-data';
+import { PAGE_DATA } from '../data/page-data';
 
 @Component({
   selector: 'app-timeline',
