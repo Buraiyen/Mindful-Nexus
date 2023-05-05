@@ -1,5 +1,12 @@
+$base-font-size: 16px;
+
+/**********************************/
 // Atom One Dark color scheme
 $black: #282c34;
+
+// Gray
+$gray: #acacac;
+$gray-light: rgba(255, 255, 255, 0.7);
 
 // Red
 $red: #e06c75;
@@ -26,6 +33,9 @@ $purple: #c678dd;
 $purple-dark: darken($purple, 20%);
 $purple-transparent: rgba($purple, 0.3);
 
-// Gray
-$gray: #acacac;
-$gray-light: rgba(255, 255, 255, 0.7);
+/**********************************/
+// Breakpoints
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
