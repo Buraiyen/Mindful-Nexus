@@ -1,9 +1,9 @@
-interface Saying {
+export interface Saying {
   regular: string;
   bold: string;
 }
 
-const SAYINGS: Saying[] = [
+export const SAYINGS: Saying[] = [
   {
     regular: 'Believe in yourself,',
     bold: 'always',
@@ -33,5 +33,3 @@ const SAYINGS: Saying[] = [
     bold: 'kindness',
   },
 ];
-
-export default SAYINGS;
