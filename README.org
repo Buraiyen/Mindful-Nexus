@@ -3,6 +3,7 @@
 * Table of Contents :toc:
   - [[#about][About]]
   - [[#technologies-used][Technologies Used]]
+  - [[#download-and-installation][Download and Installation]]
 
 ** About
 Welcome to MindfulNexus, your go-to app for self-improvement, personal growth,
@@ -20,3 +21,18 @@ the best version of yourself.
 + [[https://www.postgresql.org/][PostgreSQL]] - open source object-relational database
 + [[https://www.php.net/][PHP]] - back-end language for building APIs and handling server-side logic
 + [[PHP][Laravel]] - PHP framework for building scalable and maintainable APIs
+
+** Download and Installation
+The instructions below assume you are using a terminal and have =git= and =npm= installed
+
+#+begin_src sh
+> git clone https://github.com/Buraiyen/Mindful-Nexus.git
+
+> cd Mindful-Nexus/
+
+> npm i
+
+> ng s
+#+end_src
+
+The development server will start on  http://localhost:4200/ in your browser
