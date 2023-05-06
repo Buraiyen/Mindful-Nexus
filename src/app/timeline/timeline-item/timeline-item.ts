@@ -4,4 +4,5 @@ export interface TimelineItem {
   date: Date;
   category: string;
   content: string[];
+  link: string;
 }
