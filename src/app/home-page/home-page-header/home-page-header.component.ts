@@ -20,6 +20,6 @@ export class HomePageHeaderComponent implements OnInit {
         this.currentIndex = 0;
       }
       this.currentSaying = this.sayings[this.currentIndex];
-    }, 5000);
+    }, 7000);
   }
 }
