@@ -7,8 +7,22 @@
     {{ paragraph }}
   </p>
   <div [ngSwitch]="pageData.category">
-    <a *ngSwitchCase="'article'" href="" class="button">Read</a>
-    <a *ngSwitchCase="'podcast'" href="" class="button">Listen</a>
-    <a *ngSwitchDefault href="" class="button">View</a>
+    <a
+      *ngSwitchCase="'article'"
+      [href]="pageData.link"
+      target="_blank"
+      class="button"
+      >Read</a
+    >
+    <a
+      *ngSwitchCase="'podcast'"
+      [href]="pageData.link"
+      target="_blank"
+      class="button"
+      >Listen</a
+    >
+    <a *ngSwitchDefault [href]="pageData.link" target="_blank" class="button"
+      >View</a
+    >
   </div>
 </app-container>
