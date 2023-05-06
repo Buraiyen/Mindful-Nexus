@@ -1,6 +1,9 @@
 <a [routerLink]="timelineItem!.id">
   <article class="timeline-item">
     <h3 class="timeline-item__title">{{ timelineItem!.title }}</h3>
+    <p class="timeline-item__short-description">
+      {{ timelineItem!.content[0] }}
+    </p>
     <div class="timeline-item__bottom-group">
       <div class="timeline-item__date">
         <a>
