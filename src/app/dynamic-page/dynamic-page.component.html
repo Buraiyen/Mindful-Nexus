@@ -6,5 +6,9 @@
   <p class="paragraph" *ngFor="let paragraph of pageData.content">
     {{ paragraph }}
   </p>
-  <a href="" class="button">Link</a>
+  <div [ngSwitch]="pageData.category">
+    <a *ngSwitchCase="'article'" href="" class="button">Read</a>
+    <a *ngSwitchCase="'podcast'" href="" class="button">Listen</a>
+    <a *ngSwitchDefault href="" class="button">View</a>
+  </div>
 </app-container>
