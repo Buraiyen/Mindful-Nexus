@@ -32,4 +32,12 @@ export const SAYINGS: Saying[] = [
     regular: 'Treat others with',
     bold: 'kindness',
   },
+  {
+    regular: 'Create meaningful',
+    bold: 'relationships',
+  },
+  {
+    regular: 'You are',
+    bold: 'loved and appreciated',
+  },
 ];
