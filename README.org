@@ -1,0 +1,10 @@
+#+title: Mindful Nexus
+
+* Table of Contents :toc:
+  - [[#about][About]]
+
+** About
+Welcome to MindfulNexus, your go-to app for self-improvement, personal growth,
+and mindfulness resources. Our app provides a collection of curated books,
+articles, podcasts, courses, and tools to help you on your journey to becoming
+the best version of yourself.
