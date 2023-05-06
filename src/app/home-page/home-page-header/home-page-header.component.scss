@@ -1,3 +1,5 @@
+@import "variables";
+
 .home-header {
   margin: 0;
   background-color: #333333;
@@ -6,13 +8,30 @@
 
   .saying {
     text-transform: uppercase;
-    font-size: 2.8rem;
+    font-size: 4vw;
+
     span {
       display: block;
 
       &.regular {
         font-weight: 100;
       }
+    }
+
+    @media (max-width: $breakpoint-xlarge) {
+      font-size: 5vw;
+    }
+
+    @media (max-width: $breakpoint-large) {
+      font-size: 6vw;
+    }
+
+    @media (max-width: $breakpoint-medium) {
+      font-size: 8vw;
+    }
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 10vw;
     }
   }
 }
