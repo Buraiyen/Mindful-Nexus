@@ -4,6 +4,7 @@
   - [[#about][About]]
   - [[#technologies-used][Technologies Used]]
   - [[#download-and-installation][Download and Installation]]
+  - [[#contributing][Contributing]]
 
 ** About
 Welcome to MindfulNexus, your go-to app for self-improvement, personal growth,
@@ -36,3 +37,7 @@ The instructions below assume you are using a terminal and have =git= and =npm= 
 #+end_src
 
 The development server will start on  http://localhost:4200/ in your browser
+
+** Contributing
+This application is currently in development, but I welcome any feedback and
+suggestions! Feel free to submit issues or pull requests to this repository
