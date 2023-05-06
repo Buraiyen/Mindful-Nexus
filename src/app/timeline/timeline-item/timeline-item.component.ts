@@ -7,5 +7,5 @@ import { TimelineItem } from './timeline-item';
   styleUrls: ['./timeline-item.component.scss'],
 })
 export class TimelineItemComponent {
-  @Input() timelineItem?: TimelineItem;
+  @Input() timelineItem!: TimelineItem;
 }
