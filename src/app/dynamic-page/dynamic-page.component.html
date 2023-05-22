@@ -1,28 +1,30 @@
 <app-container>
-  <div>
-    <h2 class="info">{{ pageData.category }} | {{ pageData.date | date }}</h2>
-  </div>
-  <h1 class="title">{{ pageData.title }}</h1>
-  <p class="paragraph" *ngFor="let paragraph of pageData.content">
-    {{ paragraph }}
-  </p>
-  <div [ngSwitch]="pageData.category">
-    <a
-      *ngSwitchCase="'article'"
-      [href]="pageData.link"
-      target="_blank"
-      class="button"
-      >Read</a
-    >
-    <a
-      *ngSwitchCase="'podcast'"
-      [href]="pageData.link"
-      target="_blank"
-      class="button"
-      >Listen</a
-    >
-    <a *ngSwitchDefault [href]="pageData.link" target="_blank" class="button"
-      >View</a
-    >
-  </div>
+  <section class="dynamic-page">
+    <div>
+      <h2 class="info">{{ pageData.category }} | {{ pageData.date | date }}</h2>
+    </div>
+    <h1 class="title">{{ pageData.title }}</h1>
+    <p class="paragraph" *ngFor="let paragraph of pageData.content">
+      {{ paragraph }}
+    </p>
+    <div [ngSwitch]="pageData.category">
+      <a
+        *ngSwitchCase="'article'"
+        [href]="pageData.link"
+        target="_blank"
+        class="button"
+        >Read</a
+      >
+      <a
+        *ngSwitchCase="'podcast'"
+        [href]="pageData.link"
+        target="_blank"
+        class="button"
+        >Listen</a
+      >
+      <a *ngSwitchDefault [href]="pageData.link" target="_blank" class="button"
+        >View</a
+      >
+    </div>
+  </section>
 </app-container>
