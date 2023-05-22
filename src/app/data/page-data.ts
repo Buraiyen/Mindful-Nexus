@@ -1,3 +1,7 @@
+/*
+NOTE: this is just a temporary DB. A PostgreSQL DB will be used
+in place of this
+*/
 export const PAGE_DATA = [
   {
     id: 'psychology-of-money',
