@@ -21,7 +21,7 @@ the best version of yourself.
 *** Future
 + [[https://www.postgresql.org/][PostgreSQL]] - open source object-relational database
 + [[https://www.php.net/][PHP]] - back-end language for building APIs and handling server-side logic
-+ [[PHP][Laravel]] - PHP framework for building scalable and maintainable APIs
++ [[https://laravel.com/][Laravel]] - PHP framework for building scalable and maintainable APIs
 
 ** Download and Installation
 The instructions below assume you are using a terminal and have =git= and =npm= installed
