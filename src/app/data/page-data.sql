@@ -31,6 +31,14 @@ VALUES
    ARRAY['The author of this article shares a story about a weightlifter who achieved great success despite using old, worn-out shoes. The message is that we often waste time obsessing over small details and seeking perfection, when what truly matters is doing the work and mastering the fundamentals.',
    'The key to success lies in taking action, rather than relying on external factors or excuses. You don''t need fancy equipment or credentials; all you need is determination, consistency, and willingness to put in the effort.'],
    'https://jamesclear.com/required-for-success/'),
+   
+   ('tidying-up-marie-kond',
+   'Tidying Up With Marie Kondo',
+   '2019-01-01',
+   'video',
+   ARRAY['In a series of inspiring home makeovers, world-renowned tidying expert Marie Kondo helps clients clear out the clutter -- and choose joy.',
+   'The KonMari method emphasizes the idea of keeping only items that spark joy and letting go of possessions that no longer serve a purpose. Marie Kondo guides individuals and families through a process of categorizing their belongings and making deliberate decisions about what to keep and what to discard. The show showcases the transformative impact of decluttering and organizing lives, promoting a sense of order, mindfulness, and gratitude for the things that truly matter.'],
+   'https://jamesclear.com/required-for-success/'),
   
   ('down-dog-yoga',
    'Down Dog',
@@ -38,4 +46,3 @@ VALUES
    'tool',
    ARRAY['The Down Dog app is a popular mobile application that offers a variety of yoga practices and other workout routines for all levels of practitioners. It provides customizeable workouts that you can tailor to your preferences and goals.'],
    'https://www.downdogapp.com/');
-

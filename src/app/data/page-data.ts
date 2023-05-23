@@ -36,6 +36,17 @@ export const PAGE_DATA = [
     link: 'https://jamesclear.com/required-for-success/',
   },
   {
+    id: 'tidying-up-marie-kondo',
+    title: 'Tidying Up With Marie Kondo',
+    date: new Date('1/1/2019'),
+    category: 'video',
+    content: [
+      'In a series of inspiring home makeovers, world-renowned tidying expert Marie Kondo helps clients clear out the clutter -- and choose joy.',
+      "The KonMari method emphasizes the idea of keeping only items that spark joy and letting go of possessions that no longer serve a purpose. Marie Kondo guides individuals and families through a process of categorizing their belongings and making deliberate decisions about what to keep and what to discard. The show showcases the transformative impact of decluttering and organizing on people's lives, promoting a sense of order, mindfulness, and gratitude for the things that truly matter.",
+    ],
+    link: 'https://www.netflix.com/title/80209379',
+  },
+  {
     id: 'down-dog',
     title: 'Down Dog',
     date: new Date('1/1/2013'),
